@@ -1,5 +1,5 @@
 [book]
-title = "The QuestDB Playbook"
+title = "The QuestDB Playbook: Patterns and Snippets for Time-Series Practitioners."
 description = "The QuestDB Playbook: Patterns and Snippets for Time-Series Practitioners."
 authors = ["Javier Ramirez - QuestDB Developer Relations Lead"]
 language = "en"
@@ -22,6 +22,5 @@ hidelines = { python = "~", sql = "~" }
 optional = true
 
 [output.pandoc.profile.pdf]
-optional = true
 output-file = "The-QuestDB-Playbook.pdf"
 to = "latex"
