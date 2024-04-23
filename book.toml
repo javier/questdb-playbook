@@ -1,0 +1,23 @@
+[book]
+title = "The QuestDB Playbook"
+description = "The QuestDB Playbook: Patterns and Snippets for Time-Series Practitioners."
+authors = ["Javier Ramirez - QuestDB Developer Relations Lead"]
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html.playground]
+editable = true         # allows editing the source code
+copyable = true          # include the copy button for copying code snippets
+copy-js = true           # includes the JavaScript for the code editor
+line-numbers = false     # displays line numbers for editable code
+runnable = false          # displays a run button for rust code
+
+[output.html.code]
+# A prefix string per language (one or more chars).
+# Any line starting with whitespace+prefix is hidden.
+hidelines = { python = "~", sql = "~" }
+
+[output.pandoc.profile.pdf]
+output-file = "The-QuestDB-Playbook.pdf"
+to = "latex"
