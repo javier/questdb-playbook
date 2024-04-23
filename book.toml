@@ -18,6 +18,9 @@ runnable = false          # displays a run button for rust code
 # Any line starting with whitespace+prefix is hidden.
 hidelines = { python = "~", sql = "~" }
 
+[output.pandoc]
+optional = true
+
 [output.pandoc.profile.pdf]
 optional = true
 output-file = "The-QuestDB-Playbook.pdf"
