@@ -1,6 +1,6 @@
 # Summary
 
-[About this playbook]()
+[About this playbook](./about.md)
 
 # Sample datasets
 - [Loading Sample Data](./loading_sample_data.md)
@@ -42,15 +42,18 @@
 # Integrations
 
 - [Kafka Connect]()
+    - [Start with Docker]()
 - [Kafka Ksql]()
     - [Pre-processing JSON]()
 - [Grafana]()
+    - [Start with Docker]()
     - [Filtering by date]()
 - [Pandas]()
     - [Writing data]()
 - [Time-Series forecasting]()
     - [Prophet]()
     - [Scikit-learn]()
+- [End-to-end analytics]()
 
 ---
 
