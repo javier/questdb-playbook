@@ -7,7 +7,7 @@
 
 # Querying with SQL
 
-- [Force designated timestamp](./sql/force-designated-timestamp.md)
+- [Forcing a designated timestamp](./sql/force-designated-timestamp.md)
 - [Pivoting Results](./sql/pivoting.md)
 - [Working with time-ranges](./sql/time-ranges.md)
 - [Window Functions](./sql/window-functions.md)
