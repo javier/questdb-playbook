@@ -35,7 +35,7 @@ The following script gives you a basic way of batching rows in a buffer, and flu
 
 
 
-## ILP Over TCP Socker
+## ILP Over TCP Socket
 
 TCP over Socket is less reliable but gives you higher throughput. The message format is the same, you just need to change the transport.
 
