@@ -15,6 +15,7 @@
     - [Compare with row(s) before](./sql/lag_window_function.md)
     - [Filtering Window Functions Output]()
     - [Moving average by time or offset]()
+    - [Get five rows before/after a value match](./sql/rows_before_after_value_match.md)
 - [Dealing with timezones]()
 - [Finding Correlations]()
 - [Sampling and Interpolation]()
@@ -78,11 +79,13 @@
 
 # Operations
 
+- [Remove existing duplicates from table]()
 - [Disable Auto Table/Column Creation]()
     - [Via Configuration]()
     - [Via ACLs]()
 - [ZFS file compression]()
 - [Partitions lifecycle]()
+- [Change Default Config with Docker Compose](./operations/change_default_config_with_docker_compose.md)
 - [Snapshotting]()
 - [Double ingestion]()
     - [Using client libraries]()
