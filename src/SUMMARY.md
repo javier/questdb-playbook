@@ -10,6 +10,7 @@
 - [Forcing a designated timestamp](./sql/force-designated-timestamp.md)
 - [Pivoting Results](./sql/pivoting.md)
 - [Working with time-ranges](./sql/time-ranges.md)
+- [Calculate composed interest](./sql/calculate_composed_interest.md)
 - [Window Functions](./sql/window-functions.md)
     - [Elapsed time](./sql/elapsed_time.md)
     - [Compare with row(s) before](./sql/lag_window_function.md)
