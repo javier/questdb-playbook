@@ -29,12 +29,12 @@ class DataInserter {
         };
 
         $symbolString = implode(',', array_map(
-            function($k, $v) use ($escape) { return "$k={$escape($v)}"; },
+            function($k, $v) use ($escape) { return "$k={$escape($v)}"; }, 
             array_keys($symbols), $symbols
         ));
 
         $columnString = implode(',', array_map(
-            function($k, $v) use ($escape) { return "$k={$escape($v)}"; },
+            function($k, $v) use ($escape) { return "$k={$escape($v)}"; }, 
             array_keys($columns), $columns
         ));
 
@@ -90,4 +90,3 @@ $inserter->insertRow("test_readings", ["city" => "New York", "make" => "Sony"], 
 $inserter->insertRow("test_readings", ["city" => "New York", "make" => "Philips"], ["temperature" => 21.0, "humidity" => 0.340], "1650573480100900000");
 $inserter->insertRow("test_readings", ["city" => "New York", "make" => "Samsung"], ["temperature" => 18.5, "humidity" => 0.335]);
 ?>
-
